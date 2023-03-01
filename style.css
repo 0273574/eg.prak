@@ -1,0 +1,59 @@
+html{
+    font-family: Helvetica;
+    font-size: large;
+}
+header, footer{
+    background-color: #00838F;
+    color:white;
+    padding: 5px;
+    font-size: 130%;
+    text-align: center;
+
+
+}
+.obrazek{
+    box-shadow: 10px 7px 5px DimGray;
+    margin:20px;
+}
+.bloki{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+div.lewy{
+    background-color: #EFEFEF;
+    width: 55%;
+    
+    
+    
+}
+
+div.lewy1{
+    height: 150px;
+}
+div.lewy2{
+    height: 300px;
+}
+div.prawy{
+    background-color: #4FB3BF;
+    width: 45%;
+    height: 513px;
+    text-align: center;
+    
+}
+table, th, td {
+    border: 1px solid #4FB3BF;
+    border-collapse: collapse;
+    
+    
+  }
+table{
+    margin: auto;
+    width:80%;
+}
+
+td:hover{
+    background-color: #4FB3BF;
+}
+
